@@ -9,7 +9,7 @@ xs = []
 ys = []
 
 video = cv2.VideoCapture("ball_video1.mp4")
-#load tracker 
+#loading the tracker 
 tracker = cv2.TrackerCSRT_create()
 
 #read the first frame of the video
